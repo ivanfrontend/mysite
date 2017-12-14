@@ -1,4 +1,4 @@
-<div style="font-size: 120%; font-family: monospace; color: #cd66cc"> Для commit и push </div> <br>   
+ Для commit и push <br>   
 git init - для новых проектов <br>  
 git add README.md - для новых проектов <br>  
 git commit -m "first - commit" для commit <br>  
