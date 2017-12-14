@@ -1,12 +1,7 @@
-<div class="center"> Для commit и push </div> <br>   
+<div style="font-size: 120%; font-family: monospace; color: #cd66cc"> Для commit и push </div> <br>   
 git init - для новых проектов <br>  
 git add README.md - для новых проектов <br>  
 git commit -m "first - commit" для commit <br>  
 git remote add origin https://github.com/ivanfrontend/tabs-on-jquery.git - для новых проектов <br>  
 git push -u origin master - для push <br>  
-<style>
-  .center{
-  text-align: center;
-  color: red;
-  }
-  </style>
+
