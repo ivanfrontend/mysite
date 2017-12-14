@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css" >
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>site1</title>
+</head>
+<body>
+    <style>
+        .minwrapp{
+            width: 40%;
+            border: 1px solid;
+        }
+        .sp1{
+        
+        }
+    </style>
+<!--     <div class="wrapp">
+        <div class="qwert11">
+<span class="t1">Длина</span><input class="q0" type="number">
+</div>
+<div class="qwert11">
+<span class="t1">ширина</span><input class="q2" type="number">
+</div>
+<div class="qwert11">
+<span class="t1">стоимость за 1кв</span><input class="q3" type="number">
+</div>
+<button class="q1">кнопка</button>
+<div class="qw1"></div>
+</div> -->
+
+<div class="wrapp">
+    <div class="minwrapp">
+        <div class="sp1">Длина</div>
+        <input type="text" class="in1">
+    </div>
+    <div class="minwrapp">
+        <div class="sp1">Ширина</div>
+        <input type="text" class="in1">
+    </div>
+    <div class="minwrapp">
+        <div class="sp1">высота и стоимость</div>
+        <input type="text" class="in1">
+    </div>
+    <button class="but1">кнопка</button>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/js.js"></script>
+<script>
+    $('.q1').on('click', function(){
+        var qwert = $('.q0').val();
+         var qwert2 = $('.q2').val();
+          var qwer3 = $('.q3').val();
+          var rez = qwert*qwert2*qwer3;
+        $('.qw1').text(rez);
+    });
+
+    
+</script>
+</body>
+</html>
