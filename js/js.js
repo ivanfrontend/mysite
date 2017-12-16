@@ -51,7 +51,12 @@ $(".imgDiv").on("click", ".bagrColor", function(){
 
 // таб конец
 
-
+// показ текста
+ $('.wrapperTextabuut button').on('click', function(){
+        console.log("Клик работает верно");
+        $('#heidText').toggleClass('heidText');
+    })
+// конец показа текста
 
 
 

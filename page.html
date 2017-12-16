@@ -17,7 +17,19 @@
         .sp1{
         
         }
+        .text{
+            height:20px;
+          overflow:hidden;  
+        }
+        .q1{
+           height:100px; 
+        }
     </style>
+
+    <div>
+    <p class="text">Тег ❮details❯ (детали, элементы) используется для хранения информации, которую можно скрыть или показать по требованию пользователя. По умолчанию содержимое тега не отображается, для изменения статуса применяется атрибут open. </p>
+    <p class="button">читать</p>
+</div>
 <!--     <div class="wrapp">
         <div class="qwert11">
 <span class="t1">Длина</span><input class="q0" type="number">
@@ -48,6 +60,26 @@
     <button class="but1">кнопка</button>
 </div>
 
+<div>
+    <details>
+        
+        <summary>
+            Ёбни клик )
+        </summary>
+        Тег ❮details❯ (детали, элементы) используется для хранения информации, которую можно скрыть или показать по требованию пользователя. По умолчанию содержимое тега не отображается, для изменения статуса применяется атрибут open. 
+
+    </details>
+</div>
+
+<div>
+    
+    <div style="height:300px">
+<span style="cursor:pointer;color:blue" onclick="document.getElementById('ta').style.height = '100px'">раскрыть</span>
+<div id="ta" style="height:20px;overflow:hidden">bla
+ bla <br>bla<br>bla<br>bla<br>bla<br>
+</div>
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/js.js"></script>
@@ -60,6 +92,10 @@
         $('.qw1').text(rez);
     });
 
+    $('.button').on('click', function(){
+        console.log("Клик работает верно");
+        $('.text').toggleClass('q1');
+    })
     
 </script>
 </body>
