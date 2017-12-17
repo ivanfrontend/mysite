@@ -55,6 +55,7 @@ $(".imgDiv").on("click", ".bagrColor", function(){
  $('.wrapperTextabuut button').on('click', function(){
         console.log("Клик работает верно");
         $('#heidText').toggleClass('heidText');
+        $('.wrapperTextabuut').toggleClass('borderShow');
     })
 // конец показа текста
 
